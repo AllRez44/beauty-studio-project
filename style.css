@@ -489,3 +489,8 @@ footer img {
     text-align: center;
   }
 }
+
+@media and (max-width: 360px) {
+  .intro p {
+    font-size: 2rem;
+}
