@@ -154,8 +154,6 @@ main h1 {
 }
 
 #gallery {
-  height: fit-content;
-  height: -moz-fit-content;
   overflow: hidden;
 }
 
@@ -167,8 +165,6 @@ main h1 {
 }
 
 .galleryItems img {
-  height: fit-content;
-  height: -moz-fit-content;
   width: 25vw;
 }
 
