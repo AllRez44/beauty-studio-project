@@ -277,6 +277,7 @@ footer {
 #contact p {
   margin-bottom: 0.1rem;
   color: whitesmoke;
+  text-decoration: none;
 }
 
 footer img {
