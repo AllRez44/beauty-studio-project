@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+ol {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -110,20 +114,20 @@ main h1 {
 .coverText {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 52%;
   transform: translate(-50%, -50%);
   width: 65%;
 }
 
 .coverText * {
-  font-family: 'Meow Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .brandName {
   font-size: 8rem;
   font-weight: 400;
   color: rgb(0, 0, 0);
-  padding-bottom: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 .brandSubtitle {
@@ -145,7 +149,7 @@ main h1 {
 }
 
 .intro p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   word-spacing: 0.5rem;
 }
 
@@ -176,6 +180,8 @@ main h1 {
   display: grid;
   grid-template-columns: repeat(2, 4fr);
   text-align: center;
+  margin: 0 0.6rem 0;
+  gap: 1rem;
 }
 
 .testimonialsList li {
@@ -341,18 +347,24 @@ footer img {
   }
 
   /* Phone Main */
+
   .cover {
     background: url(./assets/images/woman-hairdresser-salon-mobile.jpg)
       center/cover;
     height: 800px;
+    overflow: visible;
   }
 
   .coverText {
-    width: 90%;
+    width: 80%;
+    left: 45%;
+    overflow: visible;
   }
 
   .brandName {
     font-size: 4.1rem;
+    margin-left: 30%;
+    overflow: visible;
   }
 
   .brandSubtitle {
@@ -369,8 +381,8 @@ footer img {
   #menu .shortcuts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 3rem 6rem;
-    gap: 3rem;
+    padding: 0 2rem 6rem;
+    gap: 2rem;
   }
 
   #menu a {
