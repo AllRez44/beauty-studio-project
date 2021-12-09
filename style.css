@@ -68,7 +68,7 @@ header {
 }
 
 .centerShortcuts a img {
-  max-width: 4rem;
+  max-width: 3.5rem;
 }
 
 .centerShortcuts *:hover,
@@ -117,6 +117,7 @@ main h1 {
   left: 52%;
   transform: translate(-50%, -50%);
   width: 65%;
+  overflow: visible;
 }
 
 .coverText * {
@@ -128,13 +129,14 @@ main h1 {
   font-weight: 400;
   color: rgb(0, 0, 0);
   padding-bottom: 2rem;
+  overflow: visible;
 }
 
 .brandSubtitle {
   font-size: 3rem;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
-  color: gold;
+  color: white;
 }
 
 .intro {
@@ -148,7 +150,8 @@ main h1 {
   padding-bottom: 6rem;
 }
 
-  font-size: 2.8rem;
+.intro p {
+  font-size: 3rem;
   word-spacing: 0.5rem;
   overflow: visible;
 }
@@ -245,8 +248,9 @@ main h1 {
 }
 
 .sloganText {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   color: aliceblue;
+  overflow: visible;
 }
 
 /* Bottom*/
@@ -280,9 +284,14 @@ footer {
 }
 
 footer img {
-  max-width: 90%;
-  height: fit-content;
+  width: 30%;
   overflow: visible;
+}
+
+.bigLogo .brandName {
+  color: whitesmoke;
+  font-size: 2.5rem;
+  font-family: 'Dancing Script', cursive;
 }
 
 .credits h4 {
@@ -343,7 +352,7 @@ footer img {
   }
 
   .centerShortcuts a img {
-    max-width: 3rem;
+    max-width: 2.5rem;
   }
 
   /* Phone Main */
@@ -357,13 +366,14 @@ footer img {
 
   .coverText {
     width: 80%;
-    left: 45%;
+    left: 40%;
     overflow: visible;
   }
 
   .brandName {
-    font-size: 4.1rem;
-    margin-left: 30%;
+    font-size: 4.5rem;
+    margin-left: 20%;
+    padding-right: 1rem;
     overflow: visible;
   }
 
@@ -403,7 +413,7 @@ footer img {
   }
 
   .intro p {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     word-spacing: 0.25rem;
   }
 
@@ -436,7 +446,7 @@ footer img {
   }
 
   .slogan {
-    height: 450px;
+    height: 500px;
   }
 
   .sloganText {
@@ -470,6 +480,17 @@ footer img {
     margin-bottom: 1.5rem;
   }
 
+  .bigLogo img {
+    width: 40%;
+  }
+
+  .bigLogo .brandName {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 1rem;
+    font-size: 2.8rem;
+  }
+
   #adress {
     padding-top: 5rem;
   }
@@ -492,8 +513,12 @@ footer img {
   }
 }
 
-@media screen and (width: 375px) {
-  .intro p {
-    font-size: 2rem;
+@media screen and (max-width: 360px) {
+  .brandName {
+    font-size: 4rem;
+  }
+
+  .brandSubtitle {
+    font-size: 2.5rem;
   }
 }
