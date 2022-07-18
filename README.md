@@ -18,8 +18,8 @@ https://allrez44.github.io/beauty-studio-project/
   
 <h2> Mobile <h2>
 <div align="center">
-    <img width="230px" src="./Captura de Tela (22).png"/>
-    <img width="230px" src="./Captura de Tela (23).png"/>
-    <img width="230px" src="./Captura de Tela (24).png"/>
-    <img width="230px" src="./Captura de Tela (25).png"/>
+    <img width="220px" src="./Captura de Tela (22).png"/>
+    <img width="220px" src="./Captura de Tela (23).png"/>
+    <img width="220px" src="./Captura de Tela (24).png"/>
+    <img width="220px" src="./Captura de Tela (25).png"/>
 </div>
