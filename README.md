@@ -16,8 +16,8 @@
   
 <h2> Mobile <h2>
 <div align="center">
-    <img width="210px" src="./Captura de Tela (22).png"/>
-    <img width="210px" src="./Captura de Tela (23).png"/>
-    <img width="210px" src="./Captura de Tela (24).png"/>
-    <img width="210px" src="./Captura de Tela (25).png"/>
+    <img width="200px" src="./Captura de Tela (22).png"/>
+    <img width="200px" src="./Captura de Tela (23).png"/>
+    <img width="200px" src="./Captura de Tela (24).png"/>
+    <img width="200px" src="./Captura de Tela (25).png"/>
 </div>
