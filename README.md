@@ -1,6 +1,4 @@
-# Projeto Hairstyle Saloon
-https://allrez44.github.io/beauty-studio-project/
-<hr> 
+# Projeto Hairstyle Saloon 
 <h4> <b>Projeto de site simples e responsivo de um salão de beleza fictício.</b></h4>
 <h4> <b>Foram utilizados apenas HTML e CSS. </b></h4>
 
