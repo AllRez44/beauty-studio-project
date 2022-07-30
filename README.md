@@ -1,10 +1,10 @@
 # Projeto Hairstyle Saloon 
-<h4> <b>Projeto de site simples e responsivo de um salão de beleza fictício.</b></h4>
-<h4> <b>Foram utilizados apenas HTML e CSS. </b></h4>
-
+#### <b>Projeto de site simples e responsivo de um salão de beleza fictício.</b>
+#### <b>Foram utilizados apenas HTML e CSS. </b>
+[Link dos arquivos](https://github.com/AllRez44/beauty-studio-project/tree/master)
 <hr>
 
-<h2> Desktop <h2>
+## Desktop 
 <div align="center">
     <img width="500px" src="./Captura de Tela (26).png"/>
     <img width="500px" src="./Captura de Tela (27).png"/>
@@ -14,7 +14,7 @@
 
 <hr>  
   
-<h2> Mobile <h2>
+## Mobile
 <div align="center">
     <img width="200px" src="./Captura de Tela (22).png"/>
     <img width="200px" src="./Captura de Tela (23).png"/>
